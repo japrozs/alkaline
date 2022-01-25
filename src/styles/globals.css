@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Neutrif Pro Light";
+    src: url("https://dezaan.com/static/NeutrifPro-Light-aee1ab0371037d8104a89f3ba7d55355.otf")
+        format("opentype");
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.itc {
+    font-family: "Neutrif Pro Medium";
+}
+
+.light {
+    font-family: "Neutrif Pro Light";
+}
