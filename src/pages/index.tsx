@@ -48,57 +48,58 @@ const Home: NextPage = () => {
                         style={{ lineHeight: "1.2" }}
                         className="itc text-white text-4xl md:text-heading"
                     >
-                        Think Cocoa
-                        <br /> Think DeZaan
+                        Think Water
+                        <br /> Think 89Alkaline
                     </h1>
                     <p
                         style={{ fontSize: "25px" }}
                         className="text-white leading-1 pr-5"
                     >
-                        Founded in 1911 as a cocoa pressing factory on the banks
-                        of the Zaan River in the Netherlands, deZaan has spent
-                        more than a century setting the standard for cocoa
-                        ingredient excellence.
+                        89Alkaline Water Technology removes thousands of
+                        potential contaminants, whether it{"'"}s micro-plastics,
+                        pharmaceuticals, or unknown contaminants, our technology
+                        removes {"99.9%"} of potential contaminants.
                     </p>
                 </div>
                 <div className="hidden md:block w-full"></div>
             </div>
-            <div className="p-10 text-center">
+            <div className="p-10 text-center pb-0">
                 <p className="text-blue itc text-4xl">
-                    Be inspired by our latest cocoa recipes
+                    Why do you need alkaline?
                 </p>
-                <div className="flex items-stretch p-10">
-                    <div className="w-full mx-5">
-                        <img src="https://images.ctfassets.net/yn1b2kwt1vbo/3Aov4l1vMymv6JXfFI72Gj/65e8876048b8b41b9f0913d286069222/Rollup_Image_of_Plant-based_peanut_butter_and_cocoa_cup.jpg?w=400&h=400&q=70&fm=webp" />
-                        <p className="text-center tracking-small uppercase text-blue itc text-md px-1 mt-5 cursor-pointer hover:text-brown">
-                            PLANT-BASED PEANUT BUTTER & COCOA CUP
-                        </p>
-                    </div>
-                    <div className="w-full mx-5">
-                        <img src="https://images.ctfassets.net/yn1b2kwt1vbo/6K7UsD9Aqt2GLxGUj4ZWHS/e0a3eb86e598b698c5a31c15efdfeef8/dezaan-petit-gateaux-pattern.jpg?w=400&h=400&q=70&fm=webp" />
-                        <p className="text-center tracking-small uppercase text-blue itc text-md px-1 mt-5 cursor-pointer hover:text-brown">
-                            PETIT COCOA RASPBERRY CHEESECAKE GATEAUX
-                        </p>
-                    </div>
-                    <div className="w-full mx-5">
-                        <img src="https://images.ctfassets.net/yn1b2kwt1vbo/6UTAwSyW2woDEKhynHa6pZ/f1296d658d8a82c098b2d6c5c8ab4877/deZaan_Rollup_Image_of_Ballerina.JPG?w=400&h=400&q=70&fm=webp" />
-                        <p className="text-center tracking-small uppercase text-blue itc text-md px-1 mt-5 cursor-pointer hover:text-brown">
-                            PETIT GÂTEAUX BALLERINA
-                        </p>
-                    </div>
+                <div className="md:p-10 pb-0">
+                    <img src="img/alkaline-water-glass.jpg" />
                 </div>
-                <div className="mx-10">
-                    <hr className="bt border-gray-300 mx-5" />
-                    <p className="ml-5 mt-5 itc text-blue text-sm text-left tracking-small hover:text-brown cursor-pointer">
-                        SEE ALL RECIPES
-                    </p>
+            </div>
+            <div className="p-10 pt-0 text-center">
+                <p className="text-blue itc text-4xl">Our certifications</p>
+                <div className="flex flex-col items-center md:flex-row md:p-10">
+                    <div className="w-full mx-auto md:mx-5">
+                        <img
+                            className="my-5 md:my-0 w-48 h-auto mx-auto"
+                            src="img/iso.jpg"
+                        />
+                    </div>
+                    <div className="w-full mx-auto md:mx-5">
+                        <img
+                            className="my-5 md:my-0 w-48 h-auto mx-auto"
+                            src="img/fssai.gif"
+                        />
+                    </div>
+
+                    <div className="w-full mx-auto md:mx-5">
+                        <img
+                            className="my-5 md:my-0 w-48 h-auto mx-auto"
+                            src="img/make-in-india.jpg"
+                        />
+                    </div>
                 </div>
             </div>
             <div
                 style={{
                     backgroundColor: "red",
                     backgroundImage:
-                        "url('https://i.ibb.co/4mYS3cr/Frame-17.png')",
+                        "url('https://i.ibb.co/BrgbMzp/Frame-30.png')",
                     backgroundSize: "cover",
                     height: "544px",
                 }}
@@ -106,17 +107,20 @@ const Home: NextPage = () => {
             >
                 <div className="md:max-w-2xl mx-auto">
                     <h1 className="text-5xl text-white itc">
-                        Explore cocoa and download our recipe book
+                        Explore all the amazing benefits of Alkaline water
                     </h1>
-                    <p className="text-white itc text-xl font-medium uppercase mt-6">
-                        8 chefs, 30 recipes, 1 lead ingredient.
+                    <p className="text-white itc text-xl font-medium mt-6">
+                        Learn about Alkaline water so you can make an informed
+                        decision about your purchase.
                     </p>
-                    <button
-                        style={{ fontSize: "12px" }}
-                        className="bg-blue py-3 mt-6  px-5 itc tracking-small uppercase text-white"
-                    >
-                        REQUEST A RECIPE BOOK
-                    </button>
+                    <a href={"/about"}>
+                        <button
+                            style={{ fontSize: "12px" }}
+                            className="bg-blue py-3 mt-6  px-5 itc tracking-small uppercase text-white"
+                        >
+                            EXPLORE HEALTH BENEFITS
+                        </button>
+                    </a>
                 </div>
             </div>
             <div
@@ -124,10 +128,10 @@ const Home: NextPage = () => {
                 className="p-12 text-center"
             >
                 <h1 className="text-blue itc text-heading font-bold">
-                    An insight into cocoa
+                    An insight into our process
                 </h1>
-                <div className="flex items-stretch justify-center mt-10">
-                    <div className="mx-6 w-72 text-center">
+                <div className="flex flex-col md:flex-row items-stretch justify-center mt-10">
+                    <div className="mx-auto md:mx-6 my-6 md:my-0 w-72 text-center">
                         <svg
                             className="bg-white border border-blue rounded-full mx-auto"
                             width="200"
@@ -235,14 +239,14 @@ const Home: NextPage = () => {
                         </svg>
                         <div className="mt-5 text-blue hover:text-brown">
                             <p className="text-center tracking-small uppercase  itc text-md px-1 cursor-pointer ">
-                                PETIT COCOA RASPBERRY CHEESECAKE GATEAUX
+                                ALKALINIZATION {"&"} MINERALS
                             </p>
                             <p className="text-center itc text-lg px-1 mt-5 cursor-pointer ">
-                                How does cocoa powder behave as an ingredient
+                                To make the water taste great
                             </p>
                         </div>
                     </div>
-                    <div className="mx-6  w-72 text-center">
+                    <div className="mx-auto md:mx-6 my-6 md:my-0 w-72 text-center">
                         <svg
                             className="bg-white border border-blue rounded-full mx-auto"
                             width="200"
@@ -3794,15 +3798,14 @@ const Home: NextPage = () => {
                         </svg>
                         <div className="mt-5 text-blue hover:text-brown">
                             <p className="text-center tracking-small uppercase  itc text-md px-1 cursor-pointer ">
-                                MANUFACTURING
+                                REVESRSE OSMOSIS {"&"} UV PROTECTION
                             </p>
                             <p className="text-center itc text-lg px-1 mt-5 cursor-pointer ">
-                                How is the cocoa bean transformed into cocoa
-                                ingredients
+                                To mantain the purity of water
                             </p>
                         </div>
                     </div>
-                    <div className="mx-6 w-72 text-center">
+                    <div className="mx-auto md:mx-6 my-6 md:my-0 w-72 text-center">
                         <svg
                             className="bg-white border border-blue rounded-full mx-auto"
                             width="200"
@@ -3958,10 +3961,10 @@ const Home: NextPage = () => {
                         </svg>
                         <div className="mt-5 text-blue hover:text-brown">
                             <p className="text-center tracking-small uppercase  itc text-md px-1 cursor-pointer ">
-                                GROWING
+                                TITANIUM PLATES ELECTROLYTES
                             </p>
                             <p className="text-center itc text-lg px-1 mt-5 cursor-pointer ">
-                                How and where is cocoa grown
+                                To raise the PH of the water
                             </p>
                         </div>
                     </div>

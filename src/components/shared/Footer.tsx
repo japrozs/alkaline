@@ -5,15 +5,9 @@ interface FooterProps {}
 export const Footer: React.FC<FooterProps> = ({}) => {
     return (
         <div className="bg-blue py-10 px-20">
-            <div className="flex items-stretch">
+            <div className="flex flex-col-reverse md:flex-row items-stretch">
                 <div className="w-full flex items-stretch">
                     <div className="w-full">
-                        <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
-                            INGREDIENTS
-                        </p>
-                        <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
-                            RECIPES
-                        </p>
                         <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
                             KNOW COCOA
                         </p>
@@ -23,20 +17,14 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                     </div>
                     <div className="w-full">
                         <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
-                            SUSTAINABILITY
-                        </p>
-                        <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
-                            CHEFS
-                        </p>
-                        <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
                             CONTACT
                         </p>
                     </div>
                 </div>
-                <div className="w-full flex justify-end">
+                <div className="mb-5 md:mb-0 w-full flex justify-end">
                     <div className="max-w-sm ml-full">
                         <p className="text-white itc tracking-small text-sm mb-3">
-                            SUBSCRIBE TO DEZAAN NEWSLETTER
+                            SUBSCRIBE TO 89ALKALINE NEWSLETTER
                         </p>
                         <input
                             style={{
