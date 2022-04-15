@@ -20,12 +20,12 @@ const Home: NextPage = () => {
                 style={{
                     height: "626px",
                     backgroundImage:
-                        "url('https://images.ctfassets.net/yn1b2kwt1vbo/JUEF0jSKo4RvCPgx1CJzC/8edbbb01817b94ca5e085697a40da148/dezaan-pro-hero-banner-true-gold.jpg?w=1366&h=734&fl=progressive&q=70&fm=jpg')",
+                        "url('https://i.ibb.co/NY3mMym/Frame-27-2.png')",
                     backgroundSize: "cover",
                 }}
                 className="px-0 md:px-6 flex items-center"
             >
-                <div className="w-full p-8 px-14">
+                <div className="w-full md:p-8 md:px-14 p-3">
                     <svg
                         className="h-7 w-auto mb-6"
                         width="1168"
@@ -53,7 +53,7 @@ const Home: NextPage = () => {
                     </h1>
                     <p
                         style={{ fontSize: "25px" }}
-                        className="text-white leading-1 pr-5"
+                        className="text-white light main-cap leading-1 pr-5 sm:text-xs"
                     >
                         89Alkaline Water Technology removes thousands of
                         potential contaminants, whether it{"'"}s micro-plastics,
@@ -106,7 +106,7 @@ const Home: NextPage = () => {
                 className="text-center p-14"
             >
                 <div className="md:max-w-2xl mx-auto">
-                    <h1 className="text-5xl text-white itc">
+                    <h1 className="text-4xl md:text-5xl text-white itc">
                         Explore all the amazing benefits of Alkaline water
                     </h1>
                     <p className="text-white itc text-xl font-medium mt-6">
@@ -127,7 +127,7 @@ const Home: NextPage = () => {
                 style={{ backgroundColor: "#FFF9F4" }}
                 className="p-12 text-center"
             >
-                <h1 className="text-blue itc text-heading font-bold">
+                <h1 className="text-blue itc text-4xl md:text-heading md:font-bold">
                     An insight into our process
                 </h1>
                 <div className="flex flex-col md:flex-row items-stretch justify-center mt-10">

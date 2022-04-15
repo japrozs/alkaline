@@ -21,7 +21,7 @@ const Story: React.FC<storyProps> = ({}) => {
             <Navbar />
             <div
                 style={{ height: "100vh" }}
-                className="bg-blue text-center p-20"
+                className="bg-blue text-center p-10 md:p-20"
             >
                 <svg
                     className="h-14 w-auto mx-auto mt-12 mb-16"
@@ -41,7 +41,7 @@ const Story: React.FC<storyProps> = ({}) => {
                     />
                 </svg>
 
-                <p className="text-white itc text-3xl max-w-3xl mx-auto my-20 light">
+                <p className="text-white itc text-xl md:text-3xl max-w-3xl mx-auto my-20 light">
                     89Alkaline Water Technology removes thousands of potential
                     contaminants, whether it{"'"}s micro-plastics,
                     pharmaceuticals, or unknown contaminants, our technology
@@ -55,12 +55,12 @@ const Story: React.FC<storyProps> = ({}) => {
                 </div>
             </div>
             <div className="py-8">
-                <div className="flex items-stretch py-8 ">
+                <div className="flex flex-wrap items-stretch py-8 ">
                     <div className="w-full px-14 h-full">
                         <p className="text-blue itc tracking-small text-sm">
                             BALANCES PH
                         </p>
-                        <p className="text-blue itc text-2xl mt-16 light">
+                        <p className="text-blue itc text-xl md:text-2xl mt-2 md:mt-16 light">
                             Your body tries to maintain the pH level naturally.
                             However, if your body is too acidic or you are not
                             eating alkaline food, your systems need to work
@@ -77,15 +77,15 @@ const Story: React.FC<storyProps> = ({}) => {
                         <img className="w-full h-auto" src="img/lake.jpg" />
                     </div>
                 </div>
-                <div className="flex items-center py-8 ">
-                    <div className="w-full p-14 pr-0">
+                <div className="flex flex-wrap items-center py-8 ">
+                    <div className="w-full md:p-14 pr-0">
                         <img
                             className="w-full h-auto"
                             src="img/scientist.jpg"
                         />
                     </div>
                     <div className="w-full px-14 h-full">
-                        <p className="text-blue itc text-2xl light max-w-md">
+                        <p className="text-blue itc text-xl md:text-2xl light max-w-md">
                             One of the major benefits of drinking alkaline water
                             regularly is detoxification. Alkaline water flushes
                             out toxins from the body as toxins leads to a number
@@ -98,12 +98,12 @@ const Story: React.FC<storyProps> = ({}) => {
                         </p>
                     </div>
                 </div>
-                <div className="flex items-stretch py-8 ">
+                <div className="flex flex-wrap items-stretch py-8 ">
                     <div className="w-full px-14 h-full">
                         <p className="text-blue itc tracking-small text-sm">
                             IMPROVING IMMUNITY
                         </p>
-                        <p className="text-blue itc text-2xl mt-16 light">
+                        <p className="text-blue itc text-xl md:text-2xl mt-2 md:mt-16 light">
                             Consuming 89alkaline water on a daily basis plays an
                             important part in boosting the immunity. When your
                             body is in the alkaline state and having the higher
@@ -118,15 +118,15 @@ const Story: React.FC<storyProps> = ({}) => {
                         <img className="w-full h-auto" src="img/sleeping.jpg" />
                     </div>
                 </div>
-                <div className="flex items-stretch py-8 ">
-                    <div className="w-full p-14 pr-0">
+                <div className="flex flex-wrap items-stretch py-8 ">
+                    <div className="w-full md:p-14 pr-0">
                         <img className="w-full h-auto" src="img/mother.jpg" />
                     </div>
                     <div className="w-full p-14 h-full">
                         <p className="text-blue itc tracking-small text-sm">
                             BETTER HYDRATION
                         </p>
-                        <p className="text-blue itc text-2xl mt-16 light max-w-md">
+                        <p className="text-blue itc text-xl md:text-2xl mt-2 md:mt-16 light max-w-md">
                             Many studies have shown that due to the reduced
                             water cluster size alkaline water provides better
                             hydration than plain water. Alkaline water hydrates

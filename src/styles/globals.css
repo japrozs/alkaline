@@ -4,6 +4,24 @@
         format("opentype");
 }
 
+@font-face {
+    font-family: "Neutrif Pro Medium";
+    src: url("https://dezaan.com/static/NeutrifPro-Medium-1d1b2a9c6978df8c85d8fc5405c7ced3.otf")
+        format("opentype");
+}
+
+@font-face {
+    font-family: "Neutrif Pro Bold";
+    src: url("https://dezaan.com/static/NeutrifPro-Bold-0f992eab7d984c6912000fdafddef83a.otf")
+        format("opentype");
+}
+
+@font-face {
+    font-family: "Neutrif Pro Regular";
+    src: url("https://dezaan.com/static/NeutrifPro-Regular-5fe119315ccb03ac55429bdedb77c3c4.otf")
+        format("opentype");
+}
+
 html,
 body {
     padding: 0;
@@ -31,4 +49,10 @@ a {
 
 .light {
     font-family: "Neutrif Pro Light";
+}
+
+@media only screen and (max-width: 390px) {
+    .main-cap {
+        font-size: 6vw !important;
+    }
 }

@@ -18,7 +18,7 @@ const About: React.FC<AboutProps> = ({}) => {
             </Head>
             <Navbar />
             <div className="mx-auto max-w-4xl p-7 itc">
-                <h1 className="text-center text-blue text-5xl font-bold mb-6">
+                <h1 className="text-center text-blue text-4xl md:text-5xl md:font-bold mb-6">
                     Health benefits of Alkaline water
                 </h1>
                 <div className="flex mb-8">

@@ -17,7 +17,7 @@ const Contact: React.FC<contactProps> = ({}) => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Navbar />
-            <div className="max-w-xl mx-auto my-10">
+            <div className="max-w-xl mx-3 md:mx-auto my-10">
                 <h1 className="text-blue itc text-5xl">Contact Us</h1>
                 <hr className="bt bt-gray-500 my-4" />
                 <div className="mb-5">
