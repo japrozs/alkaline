@@ -23,7 +23,7 @@ const About: React.FC<AboutProps> = ({}) => {
                 </h1>
                 <div className="flex mb-8">
                     <div className="w-1/5">
-                        <img className="w-96 h-auto" src="img/ph.jpg" />
+                        <img alt="" className="w-96 h-auto" src="img/ph.jpg" />
                     </div>
                     <div className="w-4/5">
                         <h1 className="text-blue text-2xl font-bold mb-2">
@@ -45,6 +45,7 @@ const About: React.FC<AboutProps> = ({}) => {
                 <div className="flex mb-8">
                     <div className="w-1/5">
                         <img
+                            alt=""
                             className="w-96 h-auto"
                             src="img/antioxidants.jpg"
                         />
@@ -65,7 +66,11 @@ const About: React.FC<AboutProps> = ({}) => {
                 </div>
                 <div className="flex mb-8">
                     <div className="w-1/5">
-                        <img className="w-96 h-auto" src="img/hydrogen.jpg" />
+                        <img
+                            alt=""
+                            className="w-96 h-auto"
+                            src="img/hydrogen.jpg"
+                        />
                     </div>
                     <div className="w-4/5">
                         <h1 className="text-blue text-2xl font-bold mb-2">
@@ -84,7 +89,11 @@ const About: React.FC<AboutProps> = ({}) => {
                 </div>
                 <div className="flex mb-8">
                     <div className="w-1/5">
-                        <img className="w-96 h-auto" src="img/minerals.jpg" />
+                        <img
+                            alt=""
+                            className="w-96 h-auto"
+                            src="img/minerals.jpg"
+                        />
                     </div>
                     <div className="w-4/5">
                         <h1 className="text-blue text-2xl font-bold mb-2">
@@ -103,7 +112,7 @@ const About: React.FC<AboutProps> = ({}) => {
                 </div>
                 <div className="flex mb-8">
                     <div className="w-1/5">
-                        <img className="w-96 h-auto" src="img/dna.jpg" />
+                        <img alt="" className="w-96 h-auto" src="img/dna.jpg" />
                     </div>
                     <div className="w-4/5">
                         <h1 className="text-blue text-2xl font-bold mb-2">
@@ -123,7 +132,11 @@ const About: React.FC<AboutProps> = ({}) => {
                 </div>
                 <div className="flex mb-8">
                     <div className="w-1/5">
-                        <img className="w-96 h-auto" src="img/body-clean.jpg" />
+                        <img
+                            alt=""
+                            className="w-96 h-auto"
+                            src="img/body-clean.jpg"
+                        />
                     </div>
                     <div className="w-4/5">
                         <h1 className="text-blue text-2xl font-bold mb-2">
@@ -143,7 +156,11 @@ const About: React.FC<AboutProps> = ({}) => {
                 </div>
                 <div className="flex mb-8">
                     <div className="w-1/5">
-                        <img className="w-96 h-auto" src="img/water.jpg" />
+                        <img
+                            alt=""
+                            className="w-96 h-auto"
+                            src="img/water.jpg"
+                        />
                     </div>
                     <div className="w-4/5">
                         <h1 className="text-blue text-2xl font-bold mb-2">

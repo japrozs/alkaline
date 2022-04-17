@@ -68,7 +68,7 @@ const Home: NextPage = () => {
                     Why do you need alkaline?
                 </p>
                 <div className="md:p-10 pb-0">
-                    <img src="img/alkaline-water-glass.jpg" />
+                    <img alt="" src="img/alkaline-water-glass.jpg" />
                 </div>
             </div>
             <div className="p-10 pt-0 text-center">
@@ -76,12 +76,14 @@ const Home: NextPage = () => {
                 <div className="flex flex-col items-center md:flex-row md:p-10">
                     <div className="w-full mx-auto md:mx-5">
                         <img
+                            alt=""
                             className="my-5 md:my-0 w-48 h-auto mx-auto"
                             src="img/iso.jpg"
                         />
                     </div>
                     <div className="w-full mx-auto md:mx-5">
                         <img
+                            alt=""
                             className="my-5 md:my-0 w-48 h-auto mx-auto"
                             src="img/fssai.gif"
                         />
@@ -89,6 +91,7 @@ const Home: NextPage = () => {
 
                     <div className="w-full mx-auto md:mx-5">
                         <img
+                            alt=""
                             className="my-5 md:my-0 w-48 h-auto mx-auto"
                             src="img/make-in-india.jpg"
                         />

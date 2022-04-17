@@ -74,12 +74,17 @@ const Story: React.FC<storyProps> = ({}) => {
                         </p>
                     </div>
                     <div className="w-full">
-                        <img className="w-full h-auto" src="img/lake.jpg" />
+                        <img
+                            alt=""
+                            className="w-full h-auto"
+                            src="img/lake.jpg"
+                        />
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row items-center py-8 ">
                     <div className="w-full md:p-14 pr-0">
                         <img
+                            alt=""
                             className="w-full h-auto"
                             src="img/scientist.jpg"
                         />
@@ -115,12 +120,20 @@ const Story: React.FC<storyProps> = ({}) => {
                         </p>
                     </div>
                     <div className="w-full">
-                        <img className="w-full h-auto" src="img/sleeping.jpg" />
+                        <img
+                            alt=""
+                            className="w-full h-auto"
+                            src="img/sleeping.jpg"
+                        />
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row items-stretch py-8 ">
                     <div className="w-full md:p-14 pr-0">
-                        <img className="w-full h-auto" src="img/mother.jpg" />
+                        <img
+                            alt=""
+                            className="w-full h-auto"
+                            src="img/mother.jpg"
+                        />
                     </div>
                     <div className="w-full p-14 h-full">
                         <p className="text-blue itc tracking-small text-sm">
