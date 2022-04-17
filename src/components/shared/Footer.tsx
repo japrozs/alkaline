@@ -8,17 +8,23 @@ export const Footer: React.FC<FooterProps> = ({}) => {
             <div className="flex flex-col-reverse md:flex-row items-stretch">
                 <div className="w-full flex items-stretch">
                     <div className="w-full">
-                        <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
-                            KNOW COCOA
-                        </p>
-                        <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
-                            STORY
-                        </p>
+                        <a href="/alkaline">
+                            <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
+                                KNOW ALKALINE
+                            </p>
+                        </a>
+                        <a href="/whyus">
+                            <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
+                                WHY US
+                            </p>
+                        </a>
                     </div>
                     <div className="w-full">
-                        <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
-                            CONTACT
-                        </p>
+                        <a href="/contact">
+                            <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
+                                CONTACT
+                            </p>
+                        </a>
                     </div>
                 </div>
                 <div className="mb-5 md:mb-0 w-full flex justify-end">
@@ -43,8 +49,7 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                     style={{ letterSpacing: "2px" }}
                     className="text-small itc text-white"
                 >
-                    2020 OLAM INTERNATIONAL LIMITED - ALL RIGHTS RESERVED CO.
-                    REG NO. 199504676H
+                    &copy; {new Date().getFullYear()} 89ALKALINE INDIA
                 </p>
                 <div className="flex items-center mt-1 uppercase">
                     <a

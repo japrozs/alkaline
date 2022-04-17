@@ -61,13 +61,13 @@ export const Request: React.FC<RequestProps> = ({}) => {
                                     />
                                 </div>
                                 <p className="text-xs text-gray-500 mb-6">
-                                    Free sample kit of our 6 cocoa powders is
-                                    only open to registered foodservice
-                                    operators in the UK, contact must be over 18
-                                    years of age. Business must be registered
-                                    with the Environmental Health Department of
-                                    the relevant Local Authority, serving meals
-                                    to customers on a take-away or eat-in basis.
+                                    Free sample kit of our 5L bottle is only
+                                    open to registered foodservice operators in
+                                    the UK, contact must be over 18 years of
+                                    age. Business must be registered with the
+                                    Environmental Health Department of the
+                                    relevant Local Authority, serving meals to
+                                    customers on a take-away or eat-in basis.
                                 </p>
                                 <div className="mb-5">
                                     <p className="text-blue itc tracking-small text-sm mb-0.5">

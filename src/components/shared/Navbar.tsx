@@ -5,10 +5,11 @@ import { VscMenu, VscClose } from "react-icons/vsc";
 interface NavbarProps {}
 
 const navigation = [
-    { name: "HEALTH BENEFITS", href: "/about", current: false },
-    { name: "STORY", href: "/story", current: false },
+    { name: "HEALTH BENEFITS", href: "/benefits", current: false },
+    { name: "WHY US", href: "/whyus", current: false },
     { name: "OUR TECHNOLOGY", href: "/technology", current: false },
     { name: "CONTACT", href: "/contact", current: false },
+    { name: "STORY", href: "/story", current: false },
 ];
 
 function classNames(...classes: string[]) {
@@ -119,7 +120,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                                         item.current
                                             ? "text-brown"
                                             : "text-white hover:text-brown",
-                                        "block px-3 py-2 rounded-md text-small itc font-medium uppercase tracking-small"
+                                        "block px-3 py-2 text-small itc font-medium uppercase tracking-small"
                                     )}
                                     aria-current={
                                         item.current ? "page" : undefined

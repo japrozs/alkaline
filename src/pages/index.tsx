@@ -109,11 +109,11 @@ const Home: NextPage = () => {
                     <h1 className="text-4xl md:text-5xl text-white itc">
                         Explore all the amazing benefits of Alkaline water
                     </h1>
-                    <p className="text-white itc text-xl font-medium mt-6">
+                    <p className="text-white reg text-xl font-medium mt-6">
                         Learn about Alkaline water so you can make an informed
                         decision about your purchase.
                     </p>
-                    <a href={"/about"}>
+                    <a href={"/benefits"}>
                         <button
                             style={{ fontSize: "12px" }}
                             className="bg-blue py-3 mt-6  px-5 itc tracking-small uppercase text-white"
