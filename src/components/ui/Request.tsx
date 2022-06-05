@@ -148,22 +148,13 @@ export const Request: React.FC<RequestProps> = ({}) => {
                                             to be entered into the input even though I have set the 
                                             `type` and the `maxLength` prop on the input
 
+                                            UPDATE :: the previous solution didn't work and i'm not 
+                                            in the mood of fighting with javascript
+
                                             let hours_wasted : number = 2;
                                             *
                                             */
-                                            const str = e.target.value;
-                                            if (
-                                                !isNaN(
-                                                    parseInt(
-                                                        str.slice(
-                                                            mobile.length,
-                                                            str.length
-                                                        )
-                                                    )
-                                                )
-                                            ) {
-                                                setMobile(str);
-                                            }
+                                            setMobile(e.target.value);
                                         }}
                                         maxLength={13}
                                         required
@@ -188,8 +179,21 @@ export const Request: React.FC<RequestProps> = ({}) => {
                                 </div>
                                 <button
                                     onClick={submit}
+                                    disabled={
+                                        firstName == "" ||
+                                        lastName == "" ||
+                                        comments == "" ||
+                                        mobile == ""
+                                    }
                                     style={{ fontSize: "12px" }}
-                                    className="w-full bg-blue py-2.5 px-5 itc tracking-small uppercase text-white"
+                                    className={`w-full ${
+                                        firstName == "" ||
+                                        lastName == "" ||
+                                        comments == "" ||
+                                        mobile == ""
+                                            ? "cursor-not-allowed opacity-40"
+                                            : ""
+                                    } bg-blue py-2.5 px-5 itc tracking-small uppercase text-white`}
                                 >
                                     SUBMIT
                                 </button>
