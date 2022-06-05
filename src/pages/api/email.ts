@@ -36,6 +36,4 @@ IP DATA − ${JSON.stringify(req.body.ipAddress)}
         message_id: info.messageId,
         preview_url: nodemailer.getTestMessageUrl(info),
     });
-
-    res.status(200).json({ body: req.body });
 }
