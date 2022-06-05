@@ -2,22 +2,22 @@
 
 @font-face {
     font-family: "Neutrif Pro Light";
-    src: url("https://en.bestfonts.pro/fonts_files/5f7f5c80080f909f940fa175/files/NeutrifPro-Light.woff2");
+    src: url("../../font/NeutrifPro-Light.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Neutrif Pro Medium";
-    src: url("https://en.bestfonts.pro/fonts_files/5f7f5c80080f909f940fa175/files/NeutrifPro-Medium.woff2");
+    src: url("../../font/NeutrifPro-Medium.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Neutrif Pro Bold";
-    src: url("https://en.bestfonts.pro/fonts_files/5f7f5c80080f909f940fa175/files/NeutrifPro-Bold.woff2");
+    src: url("../../font/NeutrifPro-Bold.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Neutrif Pro Regular";
-    src: url("https://en.bestfonts.pro/fonts_files/5f7f5c80080f909f940fa175/files/NeutrifPro-Regular.woff2");
+    src: url("../../font/NeutrifPro-Regular.otf") format("opentype");
 }
 
 html,
