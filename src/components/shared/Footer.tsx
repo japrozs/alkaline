@@ -29,6 +29,7 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                         <a
                             href="https://facebook.com/89alkaline"
                             target={"_blank"}
+                            rel="noreferrer"
                         >
                             <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
                                 FACEBOOK
@@ -37,6 +38,7 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                         <a
                             href="https://instagram.com/89alkaline"
                             target={"_blank"}
+                            rel="noreferrer"
                         >
                             <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
                                 INSTAGRAM
