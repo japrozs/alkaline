@@ -6,10 +6,11 @@ interface NavbarProps {}
 
 const navigation = [
     { name: "HEALTH BENEFITS", href: "/benefits", current: false },
-    { name: "WHY US", href: "/whyus", current: false },
     { name: "OUR TECHNOLOGY", href: "/technology", current: false },
     { name: "CONTACT", href: "/contact", current: false },
     { name: "STORY", href: "/story", current: false },
+    { name: "WHAT DOCTORS SAY", href: "/doctors", current: false },
+    { name: "EXPERTS' OPINION", href: "/expert", current: false },
 ];
 
 function classNames(...classes: string[]) {

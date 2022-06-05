@@ -1,3 +1,5 @@
+@import url("https://rsms.me/inter/inter.css");
+
 @font-face {
     font-family: "Neutrif Pro Light";
     src: url("../../public/font/NeutrifPro-Light.otf") format("opentype");
@@ -51,6 +53,10 @@ a {
     font-family: "Neutrif Pro Regular";
 }
 
+.intr {
+    font-family: "Inter";
+}
+
 @media only screen and (max-width: 390px) {
     .main-cap {
         font-size: 6vw !important;
@@ -60,4 +66,8 @@ a {
 input:focus,
 textarea:focus {
     border-color: #cf9430;
+}
+
+* {
+    scroll-behavior: smooth !important;
 }

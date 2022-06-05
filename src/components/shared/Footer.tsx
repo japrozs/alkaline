@@ -1,4 +1,5 @@
 import React from "react";
+import { BsFacebook } from "react-icons/bs";
 
 interface FooterProps {}
 
@@ -8,9 +9,9 @@ export const Footer: React.FC<FooterProps> = ({}) => {
             <div className="flex flex-col-reverse md:flex-row items-stretch">
                 <div className="w-full flex items-stretch">
                     <div className="w-full">
-                        <a href="/alkaline">
+                        <a href="/story">
                             <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
-                                KNOW ALKALINE
+                                KNOW 89ALKALINE
                             </p>
                         </a>
                         <a href="/whyus">
@@ -22,7 +23,23 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                     <div className="w-full">
                         <a href="/contact">
                             <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
-                                CONTACT
+                                CONTACT US
+                            </p>
+                        </a>
+                        <a
+                            href="https://facebook.com/89alkaline"
+                            target={"_blank"}
+                        >
+                            <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
+                                FACEBOOK
+                            </p>
+                        </a>
+                        <a
+                            href="https://instagram.com/89alkaline"
+                            target={"_blank"}
+                        >
+                            <p className="text-white itc tracking-small text-xs my-2 cursor-pointer hover:text-brown w-max">
+                                INSTAGRAM
                             </p>
                         </a>
                     </div>
@@ -51,7 +68,7 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                 >
                     &copy; {new Date().getFullYear()} 89ALKALINE INDIA
                 </p>
-                <div className="flex items-center mt-1 uppercase">
+                {/* <div className="flex items-center mt-1 uppercase">
                     <a
                         href={"/terms"}
                         style={{ letterSpacing: "2px" }}
@@ -75,7 +92,7 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                     >
                         COOKIE POLICY
                     </a>
-                </div>
+                </div> */}
             </div>
         </div>
     );
