@@ -3,6 +3,7 @@ import { BiChevronRight } from "react-icons/bi";
 import { Dialog, Transition } from "@headlessui/react";
 import { VscClose } from "react-icons/vsc";
 import axios from "axios";
+import { useRouter } from "next/router";
 
 interface RequestProps {}
 
@@ -18,11 +19,10 @@ export const Request: React.FC<RequestProps> = ({}) => {
         event.preventDefault();
         let apiKey = "1be9a6884abd4c3ea143b59ca317c6b2";
         const data = await axios.get(
-            // `https://ipgeolocation.abstractapi.com/v1/?api_key=${apiKey}`
             "https://api.ipdata.co?api-key=46e261b086e97ba2279dddae922392ee28434240c7632389f2926203"
         );
 
-        let res = await axios.post("http://localhost:3000/api/email", {
+        let res = await axios.post(`${window.location.origin}/api/email`, {
             firstName,
             lastName,
             mobile,
