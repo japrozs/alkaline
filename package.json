@@ -6,8 +6,8 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "deploy": "vercel --prod",
-        "gen-env": "gen-env-types .env -o src/env.d.ts -e ."
+        "gen-env": "gen-env-types .env -o src/env.d.ts -e .",
+        "deploy": "vercel --prod"
     },
     "dependencies": {
         "@headlessui/react": "^1.4.3",
