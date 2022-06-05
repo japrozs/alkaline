@@ -14,8 +14,10 @@ export const Request: React.FC<RequestProps> = ({}) => {
     const [lastName, setLastName] = useState("");
     const [mobile, setMobile] = useState("");
     const [comments, setComments] = useState("");
+    const [submitting, setSubmitting] = useState(false);
 
     const submit = async (event: any) => {
+        setSubmitting(true);
         event.preventDefault();
         let apiKey = "1be9a6884abd4c3ea143b59ca317c6b2";
         const data = await axios.get(
@@ -30,6 +32,7 @@ export const Request: React.FC<RequestProps> = ({}) => {
             ipAddress: data.data,
         });
         console.log("res.data :: ", res.data);
+        setSubmitting(false);
         setFirstName("");
         setLastName("");
         setMobile("");
@@ -195,7 +198,7 @@ export const Request: React.FC<RequestProps> = ({}) => {
                                             : ""
                                     } bg-blue py-2.5 px-5 itc tracking-small uppercase text-white`}
                                 >
-                                    SUBMIT
+                                    {submitting ? "SUBMITTING..." : "SUBMIT"}
                                 </button>
                             </form>
                         </Transition.Child>
