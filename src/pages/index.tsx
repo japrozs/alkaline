@@ -77,7 +77,11 @@ const Home: NextPage = () => {
                     Why do you need alkaline?
                 </p>
                 <div className="md:p-10 pb-0">
-                    <img alt="" src="img/alkaline-water-glass.jpg" />
+                    <img
+                        alt=""
+                        src="img/alkaline-water-glass.jpg"
+                        className="mx-auto"
+                    />
                 </div>
             </div>
             <div className="p-10 pt-0 text-center">
